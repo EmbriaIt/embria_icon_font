@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dev-dependencies": {
     "webfonts-generator": "git+https://github.com/sunflowerdeath/webfonts-generator.git"
   },
   "devDependencies": {}
