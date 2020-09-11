@@ -1,6 +1,6 @@
 {
   "name": "embria_icon_font",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dev-dependencies": {
+  "devDependencies": {
     "webfonts-generator": "git+https://github.com/sunflowerdeath/webfonts-generator.git"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
 }

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Icon Fonts Example</title>
+</head>
+<body>
+<style>
+    @font-face {
+        font-family: "Icons";
+        src: url("../font/icons.woff2") format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+    #icons {
+        max-width: 1200px;
+        display: grid;
+        margin: 40px auto;
+        grid-auto-rows: 100px;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 50px));
+    }
+    i {
+        place-self: center;
+        font-family: Icons;
+        font-size: 24px;
+        color: #1279c1;
+        font-style: initial;
+    }
+</style>
+<div id="icons"></div>
+<script src="icons.js"></script>
+<script>
+    const iconsElement = document.getElementById('icons');
+    let i = 0;
+    for(let icon of window.icons) {
+        i++;
+        iconsElement.insertAdjacentHTML('beforeend', `<i title="${icon} - ${i}">${icon}</i>`);
+    }
+</script>
+</body>
+</html>
