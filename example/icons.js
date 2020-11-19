@@ -77,6 +77,7 @@ window.icons.push('graph_line');
 window.icons.push('hashtag');
 window.icons.push('heart');
 window.icons.push('heart_fill');
+window.icons.push('history');
 window.icons.push('hot');
 window.icons.push('idea');
 window.icons.push('ideolog');
