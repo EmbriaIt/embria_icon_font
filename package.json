@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js && http-server -p 5501 -o ./example/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "webfonts-generator": "git+https://github.com/sunflowerdeath/webfonts-generator.git"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.3",
+    "http-server": "^0.12.3"
   }
 }
