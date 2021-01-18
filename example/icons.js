@@ -50,6 +50,7 @@ window.icons.push('facebook');
 window.icons.push('file');
 window.icons.push('file_text');
 window.icons.push('filter');
+window.icons.push('globe');
 window.icons.push('google_plus');
 window.icons.push('graph_line');
 window.icons.push('hashtag');
