@@ -25,6 +25,7 @@ window.icons.push('check_circle');
 window.icons.push('check_square');
 window.icons.push('checkbox');
 window.icons.push('checkbox_column');
+window.icons.push('checkbox_mixed');
 window.icons.push('close');
 window.icons.push('columns');
 window.icons.push('compare');

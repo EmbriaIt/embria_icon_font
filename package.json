@@ -7,7 +7,7 @@
   "scripts": {
     "build": "node build.js && http-server -p 5501 -o ./example/index.html",
     "example": "http-server -p 5501 -o ./example/index.html",
-    "publish": "git add . && git commit -m 'add icons' && npm version patch && git push && npm publish"
+    "release": "git add . && git commit -m 'add icons' && npm version patch && git push && npm publish"
   },
   "author": "",
   "license": "ISC",
