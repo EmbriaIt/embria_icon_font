@@ -33,6 +33,7 @@ window.icons.push('close');
 window.icons.push('columns');
 window.icons.push('company');
 window.icons.push('compare');
+window.icons.push('copy');
 window.icons.push('delete');
 window.icons.push('dislike');
 window.icons.push('doc');
