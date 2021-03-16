@@ -109,6 +109,7 @@ window.icons.push('send');
 window.icons.push('settings');
 window.icons.push('skype');
 window.icons.push('smartphone');
+window.icons.push('sort');
 window.icons.push('sort_1_9');
 window.icons.push('sort_9_1');
 window.icons.push('sort_a_z');
