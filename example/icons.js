@@ -83,6 +83,8 @@ window.icons.push('list');
 window.icons.push('list_expand');
 window.icons.push('list_roll_up');
 window.icons.push('location');
+window.icons.push('lock');
+window.icons.push('lock_open');
 window.icons.push('log_in');
 window.icons.push('log_out');
 window.icons.push('logo_embria');
