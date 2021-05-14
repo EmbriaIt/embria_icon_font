@@ -96,6 +96,7 @@ window.icons.push('maximize');
 window.icons.push('message_circle');
 window.icons.push('message_circle2');
 window.icons.push('message_circle_plus');
+window.icons.push('message_filled');
 window.icons.push('minimize');
 window.icons.push('more_vertical');
 window.icons.push('new_post');
