@@ -101,6 +101,7 @@ window.icons.push('more_vertical');
 window.icons.push('new_post');
 window.icons.push('news');
 window.icons.push('paragraph');
+window.icons.push('person_card');
 window.icons.push('phone');
 window.icons.push('pie_chart');
 window.icons.push('play');
